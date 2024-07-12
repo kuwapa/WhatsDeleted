@@ -54,7 +54,7 @@ class MsgLogViewerActivity : AppCompatActivity() {
                 return true
             }
             R.id.action_clear -> {
-                AlertDialogHelper.showDialog(
+                showDialog(
                     this@MsgLogViewerActivity,
                     getString(R.string.clear_msg_log),
                     getString(R.string.clear_msg_log_confirm),
